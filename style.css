@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+body {
+    background: #7f9cf9;
+}
+.tip-form {
+    border: 2px solid #4fdf;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tip-form > input, .tip-form > select, .tip-form > button {
+    margin: 20px;
+}
+.tip-form > h2 {
+    text-align: center;
+}
+.tip-form > button {
+    width: 300px;
+    text-align: center;
+    align-self: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+.tip-form > input, .tip-form > select {
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.tip-form > label {
+    margin-left: 20px;
+}
+.tip-form-heading {
+    margin: 20px 0 50px 0;
+}
+.tip-form > div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.result-container > img {
+    width: 200px;
+    height: 200px;
+    margin: 15px auto 15px auto;
+}
+
+#warning-msg {
+    text-align: center;
+    font-size: 1em;
+    width: 550px;
+    border: 1px solid black;
+    background: white;
+    color: red;
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+    display: none;
+}
+#warning-msg > * {
+    margin: 5px;
+}
+#tip-result {
+    display: none;
+}
